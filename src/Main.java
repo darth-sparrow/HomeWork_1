@@ -5,7 +5,7 @@ public class Main {
         lib.addBook(new Book("Пиковая дама", "Пушкин А.С", 2020, true));
         lib.addBook(new Book("Евгений Онегин", "Пушкин А.С"));
     }
-    static public void main(String[] args){
+    public static void main(String[] args){
         var book_1 = new Book("Руслан и Людмила", "Пушкин А.С", 2021);
         var book_2 = new Book("Мастер и Маргарита", "Булгаков М.А.");
 

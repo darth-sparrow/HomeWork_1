@@ -4,9 +4,9 @@ public class Book {
     private String title;
     private String author;
     private Integer year;
-    private boolean isAvailable;
+    private Boolean isAvailable;
 
-    public Book(String title, String author, Integer year, boolean isAvailable){
+    public Book(String title, String author, Integer year, Boolean isAvailable){
         this.title = title;
         this.author = author;
         this.year = year;
